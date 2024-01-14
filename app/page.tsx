@@ -4,10 +4,7 @@ import Link from "next/link";
 const BlogViewCard = () => {
   return (
     <div className="bg-primary h-screen w-screen flex items-center justify-center">
-      <div
-        className="bg-white border border-black rounded-lg group"
-        id="parent"
-      >
+      <div className="bg-white border border-black rounded" id="parent">
         <div className="p-4 flex flex-col items-start justify-center">
           <Image
             className="rounded-lg w-64 self-center"
