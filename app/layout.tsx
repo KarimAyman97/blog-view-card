@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${figTree.variable} `}>
-      <body>{children}</body>
+    <html lang="en">
+      <body className={`${figTree.variable} `}>{children}</body>
     </html>
   );
 }

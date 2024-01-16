@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BlogViewCard = () => {
   return (
-    <div className="bg-primary h-screen w-screen flex items-center justify-center">
+    <main className="bg-primary h-screen w-screen flex items-center justify-center">
       <div className="bg-white border border-black rounded-xl " id="parent">
         <div className="p-4 flex flex-col items-start justify-center">
           <Image
@@ -51,7 +51,7 @@ const BlogViewCard = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
